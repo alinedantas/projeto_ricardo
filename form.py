@@ -56,7 +56,7 @@ if submitted:
     dados = pd.DataFrame(dados)
     st.write(f'Olá {name} de {regiao}! Obrigado por se inscrever! https: // www.facebook.com / ricardo.dantas.520357 https://www.instagram.com/professorricardodantasgomes/')
 
-    with open('dados.csv', 'a') as fp:
+    with open('https://share.streamlit.io/alinedantas/projeto_ricardo/main/dados.csv', 'a') as fp:
         file_writer = csv.writer(fp, delimiter=",")
         for row in dados.values:
             file_writer.writerow(row)
