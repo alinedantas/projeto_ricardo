@@ -4,7 +4,7 @@ import streamlit as st
 from google.cloud import firestore
 
 # Authenticate to Firestore with the JSON account key.
-db = firestore.Client.from_service_account_json("thekey.json")
+db = firestore.Client.from_service_account_json("the_key.json")
 
 # Create a reference to the Google post.
 doc_ref = db.collection("inscritos").document("inscricao")
