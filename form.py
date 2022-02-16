@@ -60,7 +60,7 @@ if nome and telefone and submit:
     INSERT INTO inscritos (nome,telefone)
         VALUES ('{nome}','{telefone}');
     """
-    crud(insertSQL, "DB/inscricoes.db")
+    crud(insertSQL, "inscricoes.db")
 
 
 
